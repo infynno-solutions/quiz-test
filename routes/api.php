@@ -21,4 +21,7 @@ Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
 
 Route::group(['namespace' => 'App\Http\Controllers'], function () {
     Route::get('questions', 'QuestionsController@index');
+    Route::post('validate', 'QuestionsController@validateAttempt');
+
+    Route::get('results', 'ResultsController@index');
 });
