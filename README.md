@@ -47,6 +47,8 @@ php artisan db:seed
 php artisan serve
 ```
 
+You can access the project at `http://localhost:8000`
+
 ### With Docker
 
 1. Run Laravel Sail
