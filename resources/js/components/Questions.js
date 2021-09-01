@@ -30,7 +30,7 @@ const Questions = ({
             }}
             checked={getAnswer(questions[curQuestion]?.id) == 1}
           />
-          <label style={{ cursor: 'pointer' }} className="mx-2 " for="true">
+          <label style={{ cursor: 'pointer' }} className="mx-2 " htmlFor="true">
             True
           </label>
         </div>
@@ -45,7 +45,7 @@ const Questions = ({
             }}
             checked={getAnswer(questions[curQuestion]?.id) == 0}
           />
-          <label style={{ cursor: 'pointer' }} className="mx-2" for="false">
+          <label style={{ cursor: 'pointer' }} className="mx-2" htmlFor="false">
             False
           </label>
         </div>
